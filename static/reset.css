@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*css reset*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,span,img,button{margin:0;padding:0}
+html, body {width: 100%; height: 100%;  font-family:"Microsoft YaHei",微软雅黑, PingFang-SC-Medium ,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;font-size: 16px; background-color: #fff; }
+/*fieldset, img,button { border:none; padding:0;margin:0;outline-style:none; }*/   /*去掉input等聚焦时的蓝色边框*/
+select, input { vertical-align:middle;}
+img {border:0; /*vertical-align:middle; */}  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+a{text-decoration: none;}
+ul li{list-style: none;}
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after {content:""; display:table;}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;/*IE/7/6*/}
+
+.f12{font-size: 12px;}
+.f14{font-size: 14px;}
+.f16{font-size: 16px;}
+.f18{font-size: 18px;}
+.f20{font-size: 20px;}
+
+
+.c_blue{color:#409EFF;}
+.c_danger{color: #F14545;}
+
+
+.bgc_blue{background-color: #409EFF;  }
+.bgc_success{ background-color:#67C23A;}
+.bgc_danger{ background-color: #ed3f14;}
+
+.hide{display: none; !important;}
+
+/*水平垂直居中*/
+.center{display: flex; flex-direction: column; justify-content: center; text-align: center;}
+
+
+/*reset the table*/
+.test .el-main .el-table td, .solar .el-main .el-table th{
+  padding: 6px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
