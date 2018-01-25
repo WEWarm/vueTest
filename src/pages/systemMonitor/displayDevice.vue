@@ -1,5 +1,7 @@
 <template>
+  <div class="displayDevice">
 
+  </div>
 </template>
 
 <script>
